@@ -1,4 +1,4 @@
 module.exports = {
-    "uri": process.env.URI,
-    "endpoint": process.env.ENDPOINT
+    "uri": "localhost",
+    "endpoint": "https://fiis.com.br/resumo"
 }

@@ -3,7 +3,7 @@ var Fii = require("./fii.js");
 var scrap = require('scrap');
 var util = require("util");
 var config = require("../config");
-var async = require("async")
+var async = require("async");
 
 var hide_fields = "-_id -created -__v -id";
 exports.list = function(request, response){
@@ -61,7 +61,7 @@ exports.scrap = function(request, response){
           queue.drain = function(){
               response.json(
                   {message: util.format(
-                      "%s fii, foram copiados.", (i-1))});
+                      "%s fii, foram copiados sda.", (i-1))});
           };
     });
 }

@@ -10,17 +10,18 @@
   },
   "author": "Henrique Lopes",
   "license": "ISC",
-  "dependencies":{
-      "async": "^1.4.1",
-      "express": "^4.13.3",
-      "mongoose": "^4.1.0",
-      "nodemon": "^1.4.0",
-      "scrap": "^0.1.0",
-      "naught": "1.6.0"
+  "dependencies": {
+    "async": "^2.6.2",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.20",
+    "nodemon": "^1.18.10",
+    "scrap": "^0.1.0",
+    "naught": "1.6.0"
   },
   "devDependencies": {
-    "mocha": "^2.2.5",
-    "nock": "^2.9.1",
-    "supertest": "^1.0.1"
+    "http": "0.0.0",
+    "mocha": "^6.0.2",
+    "nock": "^10.0.6",
+    "supertest": "^4.0.2"
   }
 }

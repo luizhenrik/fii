@@ -2,7 +2,10 @@ var config = require("../config");
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-mongoose.connect(config.uri)
+mongoose.connect('mongodb://localhost:27017/admin', { 
+    useCreateIndex: true,
+    useNewUrlParser: true
+ });
 
 var FiiSchema = new Schema({
     codigo: {type: String, index: true, required: true, unique:true},
